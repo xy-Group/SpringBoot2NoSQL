@@ -237,7 +237,9 @@ ehcache.xml
 ##### 控制器controller:
 见xy.SpringBoot2NoSQL.controller.Ehcache.EhcacheDataController
 
+##### 更多详细介绍
 
+正在写作...
 
 
 ## MongoDB for SpringBoot 开发介绍
@@ -363,6 +365,9 @@ ehcache.xml
 		...
 具体CRUD不再赘述。
 
+##### 更多详细介绍
+
+正在写作...
 
 ## ElasticSearch for SpringBoot 开发介绍
 
@@ -457,6 +462,9 @@ xy.SpringBoot2NoSQL.controller.ElasticSearch.ESSearchController
 				.must(QueryBuilders.matchPhraseQuery("enabled", true));
 	}
 
+##### 更多详细介绍
+
+正在写作...
 
 ## Cassandra for SpringBoot 开发介绍
 ##### 内容
@@ -594,6 +602,9 @@ CassandraRepository<Customer, String>继承于org.springframework.data.repositor
 ##### 控制器controller:
 见xy.SpringBoot2NoSQL.controller.Couchbase.CouchbaseController
 
+##### 更多详细介绍
+
+正在写作...
 
 ## Solr for SpringBoot 开发介绍
 ##### application.properties配置：
@@ -605,7 +616,9 @@ CassandraRepository<Customer, String>继承于org.springframework.data.repositor
 见xy.SpringBoot2NoSQL.repository.Solr.SolrCustomerRepository
 ##### 控制器controller:
 见xy.SpringBoot2NoSQL.controller.Solr.SolrController
+##### 更多详细介绍
 
+正在写作...
 
 ## Neo4j for SpringBoot 开发介绍
 正在写作...
