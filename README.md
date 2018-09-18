@@ -1,5 +1,4 @@
 SpringBoot2.0 + NoSQL使用教程，项目名称：“SpringBoot2NoSQL”
-
 ## 项目介绍
 
 All in one一站式SpringBoot for NoSQL开发教程学习手册。
