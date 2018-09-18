@@ -20,7 +20,7 @@ All in one一站式SpringBoot for NoSQL开发教程学习手册。
 
 另还准备新开一个项目用于介绍Hadoop家族的大数据开发，将命名为“SpringBoot2Hadoop”
 
-## 项目运行
+## 项目运行帮助
 
 项目导入，请使用Gradle进行项目导入：
 
