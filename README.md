@@ -1,12 +1,26 @@
-SpringBoot2.0 + NoSQL使用教程，
+SpringBoot2.0 + NoSQL使用教程，项目名称：“SpringBoot2NoSQL”
 
 ## 项目介绍
-All in one一站式SpringBoot for NoSQL开发教程手册。
 
-含SpringBoot2.0 +  Redis、Ehcache、MongoDB、ElasticSearch、Cassandra、CouchBase、Solr、Neo4j、Gemfire共10种常用NoSQL数据库操作、工具类、演示代码。
+All in one一站式SpringBoot for NoSQL开发教程学习手册。
 
+含SpringBoot2.0 +:
+
+1. Redis
+2. Ehcache
+3. MongoDB
+4. ElasticSearch
+5. Cassandra
+6. CouchBase
+7. Solr
+8. Neo4j
+9. Gemfire
+
+共10种常用NoSQL数据库操作、工具类、演示代码。用于整理日常常用的开发模式，一是作为开发笔记以备我自己日后使用，二是分享出来供大家参考。
 
 重点介绍Redis、MongoDB、ElasticSeach、Cassandra四种数据库，因为它们是各自领域的领先者（分别是KV缓存、文档数据库、搜索数据库、列数据库）。
+
+另还准备新开一个项目用于介绍Hadoop家族的大数据开发，将命名为“SpringBoot2Hadoop”
 
 ## Redis for SpringBoot 开发介绍
 
