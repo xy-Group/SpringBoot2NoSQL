@@ -1,0 +1,15 @@
+创建keyspace ：
+create keyspace myDb with replication={'class':'SimpleStrategy', 'replication_factor':1};
+
+建表：
+use myDb;
+ 
+CREATE TABLE customer(
+   id text PRIMARY KEY,
+   firstname text,
+   lastname text,
+   age int
+);
+
+建索引：
+CREATE INDEX ON myDb.customer (firstname);
