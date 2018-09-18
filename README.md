@@ -1,6 +1,5 @@
 SpringBoot2.0 + NoSQL使用教程，项目名称：“SpringBoot2NoSQL”
 ## 项目介绍
-
 All in one一站式SpringBoot for NoSQL开发教程学习手册。
 
 含SpringBoot2.0 +:
@@ -20,6 +19,28 @@ All in one一站式SpringBoot for NoSQL开发教程学习手册。
 重点介绍Redis、MongoDB、ElasticSeach、Cassandra四种数据库，因为它们是各自领域的领先者（分别是KV缓存、文档数据库、搜索数据库、列数据库）。
 
 另还准备新开一个项目用于介绍Hadoop家族的大数据开发，将命名为“SpringBoot2Hadoop”
+
+## 项目运行
+
+项目导入，请使用Gradle进行项目导入：
+
+![](http://111.230.157.216/img/nosql/run1.png)
+
+运行方式1，使用SpringBoot2的启动类启动，类名：SpringBoot2NoSqlApplication：
+
+![](http://111.230.157.216/img/nosql/run2.png)
+
+运行方式2，使用Gradle的启动工程，即Gradle Task》SpringBoot2NoSql》application》bootRun
+
+![](http://111.230.157.216/img/nosql/run3.png)
+
+运行成功
+![](http://111.230.157.216/img/nosql/run4.png)
+
+测试效果：
+Redis Bucket对象桶Controller操作：
+
+![](http://111.230.157.216/img/nosql/redisBucket.png)
 
 ## Redis for SpringBoot 开发介绍
 
