@@ -85,10 +85,13 @@ xy.SpringBoot2NoSQL.repository.Redis.**ObjectRepository**
 
 xy.SpringBoot2NoSQL.repository.Redis.**UserRepository**
 
-分别是Object类型转换操作的数据类，和泛型User数据操作.
+分别是Object类型转换操作的数据类，和泛型User数据操作。
+CRUD操作是RedisTemplate中提供了几个常用的单例对象：
+
+![](http://111.230.157.216/img/nosql/redisRedisTemplate.png)
 
 两者都是扩展自org.springframework.data.redis.core.**ValueOperations<K, V>**
-CRUD操作是RedisTemplate中提供了几个常用的单例对象，全面满足Redis的5大数据结构外，还提供了如地理位置、计数估计HyperLogLog操作。如：
+，全面满足Redis的5大数据结构外，还提供了如地理位置、计数估计HyperLogLog操作。如：
 	
 	private @Nullable ValueOperations<K, V> valueOps;//KV操作
 	private @Nullable ListOperations<K, V> listOps;//列表
@@ -173,6 +176,21 @@ RedissonController演示了同步\异步操作、分布式集合（哈希、多�
 
 ##### 运行效果
 
+Bucket对象桶操作：
+
+![](http://111.230.157.216/img/nosql/redisBucket.png)
+
+
+批量操作：
+
+![](http://111.230.157.216/img/nosql/redisBatch.png)
+
+有界阻塞队列操作：
+
+![](http://111.230.157.216/img/nosql/redisBoundedBlockingQueue.png)
+
+
+
 ##### 更多详细介绍
 
 正在写作...
@@ -236,6 +254,17 @@ ehcache.xml
 
 ##### 控制器controller:
 见xy.SpringBoot2NoSQL.controller.Ehcache.EhcacheDataController
+
+##### 运行效果
+
+运行控制器操作：
+
+![](http://111.230.157.216/img/nosql/ehcacheService.png)
+
+持久化到本地磁盘：
+
+![](http://111.230.157.216/img/nosql/ehcacheToDisk.png)
+
 
 ##### 更多详细介绍
 
@@ -364,6 +393,21 @@ ehcache.xml
 	    }
 		...
 具体CRUD不再赘述。
+
+##### 运行效果
+
+保存操作：
+
+![](http://111.230.157.216/img/nosql/mongoSave.png)
+
+保存结果：
+
+![](http://111.230.157.216/img/nosql/mongoResult.png)
+
+Query查询：
+
+![](http://111.230.157.216/img/nosql/mongoQuery.png)
+
 
 ##### 更多详细介绍
 
@@ -580,6 +624,14 @@ CassandraRepository<Customer, String>继承于org.springframework.data.repositor
 增删改查操作不再赘述。
 
 ##### 运行效果
+
+范围查询：
+
+![](http://111.230.157.216/img/nosql/CassandraController.png)
+
+根据Id查询：
+
+![](http://111.230.157.216/img/nosql/CassandraSearch.png)
 
 ##### 更多详细介绍
 
