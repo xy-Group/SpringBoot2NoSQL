@@ -1,0 +1,6 @@
+/application.properties
+/cassandra.properties
+/couchdb.xml
+/ehcache.xml
+/log4j2.xml
+/xy/
