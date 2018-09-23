@@ -1,4 +1,4 @@
-package xy.SpringBoot2NoSQL;
+package xy.spring2nosql;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
